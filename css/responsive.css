@@ -24,6 +24,9 @@
   .l_header-inner {
     width: 100%;
   }
+  #logo img {
+    height: 48px;
+  }
   .l_menu {
     position: absolute;
     z-index: 1000;
@@ -160,5 +163,8 @@
   }
   .p_top_nav > ul > li > a > span {
     padding: 10px 0;
+  }
+  .l_menu-nav > li {
+    padding-left: 0px !important;
   }
 }
