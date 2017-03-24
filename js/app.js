@@ -130,10 +130,10 @@ $(function(){
       } else {
         $('.l_menu-nav > li:first-child').css('display', 'none');
       }
-      if($('.p_top-mv > img').css('background-color') == 'rgb(34, 34, 34)') {
-        $('.p_top-mv > img').css('background-color',  '#fff');
+      if($('.l_menu-nav').css('background-color') == 'rgb(34, 34, 34)') {
+        $('.l_menu-nav').css('background-color',  '#fff');
       } else {
-        $('.p_top-mv > img').css('background-color',  '#222');
+        $('.l_menu-nav').css('background-color',  '#222');
       }
       return false;
     });
