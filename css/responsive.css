@@ -110,25 +110,25 @@
   .js_fixed-nav {
     display: none !important;
   }
+  .p_top-header-wrap {
+    top: 0;
+  }
+  .p_top-header {
+    top: 0;
+  }
 }
 @media all and (max-width: 1201px) {
   .p_top-mv {
     min-width: inherit;
   }
   .p_top-header-wrap {
-    top: 0;
-    height: 100%;
+    /*top: 0;*/
+    /*height: 100%;*/
   }
   .p_top-header {
     position: absolute;
-    top: 0;
+    /*top: 0;*/
     bottom: inherit;
-  }
-  .p_top-header-wrap__bottom {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #fff;
   }
   .p_top_nav {
     display: inherit;
@@ -164,7 +164,7 @@
   .p_top_nav > ul > li > a > span {
     padding: 10px 0;
   }
-  .l_menu-nav > li {
+  .l_menu-nav > li:nth-child(2) {
     padding-left: 0px !important;
   }
 }
