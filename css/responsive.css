@@ -1,15 +1,4 @@
 @charset'UTF-8';
-/*
-@media all and (min-width: 769px) and (max-width: 980px) {}
-@media all and (min-width: 481px) and (max-width: 767px) {}
-@media all and (max-width: 767px) {}
-@media all and (max-width: 480px) {}
-*/
-
-/* ===================================================================
- Foundation
-=================================================================== */
-
 @media all and (max-width: 767px) {
   body {
     min-width: 320px;
@@ -26,11 +15,6 @@
     filter: alpha(opacity=100) !important;
   }
 }
-
-/* ===================================================================
- Layout
-=================================================================== */
-
 @media all and (max-width: 767px) {
   /* header */
   .l_header {
