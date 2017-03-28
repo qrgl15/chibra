@@ -130,10 +130,10 @@ $(function(){
       } else {
         $('.l_menu-nav > li:first-child').css('display', 'none');
       }
-      if($('.l_menu-nav').css('background-color') == 'rgb(34, 34, 34)') {
+      if($('.l_menu-nav').css('background-color') == 'rgb(169, 169, 169)') {
         $('.l_menu-nav').css('background-color',  '#fff');
       } else {
-        $('.l_menu-nav').css('background-color',  '#222');
+        $('.l_menu-nav').css('background-color',  '#a9a9a9');
       }
       return false;
     });

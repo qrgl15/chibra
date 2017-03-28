@@ -68,15 +68,17 @@ input[type='text'], select, textarea {
 }
 .l_header-inner {
   width: 1200px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  height: 100%;
 }
 #logo {
-  position: absolute;
-  top: 0;
-  left: 5px;
+  position: relative;
 }
 #logo img {
-  height: 58px;
+  position: absolute;
+  height: 60px;
+  left: 10px;
+  top: 6px;
 }
 .l_menu {
   
@@ -163,7 +165,7 @@ input[type='text'], select, textarea {
 }
 .l_fixed-nav-inner {
   width: 1200px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 .l_fixed-nav-inner .l_menu-nav {
   padding-top: 24px;
