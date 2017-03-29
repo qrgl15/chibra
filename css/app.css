@@ -93,7 +93,8 @@ input[type='text'], select, textarea {
 .l_menu-nav > li {
   display: inline-block;
   color: #c1c1c1;
-  font-family: 'Arvo', serif;
+  /*font-family: 'Arvo', serif;*/
+  font-family: 'Noto Sans Japanese', sans-serif !important;
   font-size: 13px;
   font-weight: 700;
 }

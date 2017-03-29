@@ -25,7 +25,7 @@
 #message .images {
     height: 28px;
     text-align: center;
-    margin: 0 auto;
+    margin: 1% auto 0 auto;
 }
 #message .images img {
     height: 28px;
@@ -36,9 +36,14 @@
     text-align: center;
     margin-top: 1%;
 }
+.adjust-box {
+    width: 90%;
+    margin: 0 auto;
+}
 /*--------------Contents Of Business--------------*/
 #cob {
     width: 100%;
+    margin-top: 1%;
 }
 .businesstitle {
     text-align: center;
