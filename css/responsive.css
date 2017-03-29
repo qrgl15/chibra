@@ -32,6 +32,12 @@
   #cob .subtitle {
     background-image: url("../images/subtitle/cob_sp.png") !important;
   }
+  #culture .subtitle {
+    background-image: url("../images/subtitle/culture_sp.png") !important;
+  }
+  #message .subtitle {
+    background-image: url("../images/subtitle/message_sp.png") !important;
+  }
   .l_header {
     font-size: 0;
     height: 50px;

@@ -6,6 +6,7 @@
 .subtitle {
     width: 100%;
     height: 56px;
+    background-position: center;
 }
 #cob .subtitle {
     background-image: url("../images/subtitle/cob.png");
@@ -13,7 +14,28 @@
 #culture .subtitle {
     background-image: url("../images/subtitle/culture.png");
 }
+#message .subtitle {
+    background-image: url("../images/subtitle/message.png");
+}
+/*--------------------Message---------------------*/
 
+#message {
+    width: 100%;
+}
+#message .images {
+    height: 28px;
+    text-align: center;
+    margin: 0 auto;
+}
+#message .images img {
+    height: 28px;
+}
+#message p {
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-size: calc(45% + 0.5vw);
+    text-align: center;
+    margin-top: 1%;
+}
 /*--------------Contents Of Business--------------*/
 #cob {
     width: 100%;
