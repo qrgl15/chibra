@@ -15,9 +15,22 @@
     filter: alpha(opacity=100) !important;
   }
 }
+@media all and (max-width: 374px) {
+  #cob .images img {
+    width: 98% !important;
+  }
+}
+@media all and (min-width: 375px) and (max-width: 767px) {
+  #cob .images img {
+    width: 44% !important;
+  }
+}
 @media all and (max-width: 767px) {
   .p_top-mv {
     background-image: url("../images/main_sp.png");
+  }
+  #cob .subtitle {
+    background-image: url("../images/subtitle/cob_sp.png") !important;
   }
   .l_header {
     font-size: 0;

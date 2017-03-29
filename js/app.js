@@ -138,3 +138,26 @@ $(function(){
       return false;
     });
 });
+$(function(){
+    $('a[href^=#branding]').on('click', function() {
+      console.log("aaa");
+      if($('.st-content','#branding').css('display') == 'none') {
+        $('.st-content','#branding').css('display', 'block');
+        $('#inbound').css('margin', ($('.images', '#branding').height()) + 'px auto 0px auto');
+      }else {
+        $('#inbound').css('margin', '3% auto 0px auto');
+      }
+      return false;
+    });
+    $('a[href^=#inbound]').on('click', function() {
+      console.log("aaa");
+      if($('.st-content','#inbound').css('display') == 'none') {
+        $('.st-content','#inbound').css('display', 'block');
+        $('#innovation').css('margin', ($('.images', '#inbound').height()) + 'px auto 0px auto');
+      }else {
+        $('#innovation').css('margin', '3% auto 0px auto');
+      }
+      return false;
+    });
+});
+

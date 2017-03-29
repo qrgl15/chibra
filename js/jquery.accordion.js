@@ -42,7 +42,7 @@
 	
 		this.$el			= $( element );
 		// list items
-		this.$items			= this.$el.children('ul').children('li');
+		this.$items			= this.$el;
 		// total number of items
 		this.itemsCount		= this.$items.length;
 		
@@ -57,7 +57,7 @@
 		// if set to true, only one item can be opened. Once one item is opened, any other that is opened will be closed first
 		oneOpenedItem	: false,
 		// speed of the open / close item animation
-		speed			: 600,
+		speed			: 100,
 		// easing of the open / close item animation
 		easing			: 'easeInOutExpo',
 		// speed of the scroll to action animation
@@ -142,7 +142,7 @@
 				instance._saveDimValues();
 			
 				// reset the content's height of any item that is currently opened
-				instance.$el.find('li.st-open').each( function() {
+				instance.$el.find('.st-open').each( function() {
 					
 					var $this	= $(this);
 					$this.css( 'height', $this.data( 'originalHeight' ) + $this.find('div.st-content').outerHeight( true ) );
@@ -159,7 +159,7 @@
 		// checks if there is any opened item
 		_isOpened			: function() {
 		
-			return ( this.$el.find('li.st-open').length > 0 );
+			return ( this.$el.find('.st-open').length > 0 );
 		
 		},
 		// open / close item
@@ -183,7 +183,7 @@
 			
 			var instance	= instance || this, current;
 			
-			( instance.current !== -1 ) ? current = instance.current : current = instance.$el.find('li.st-open:last').index();
+			( instance.current !== -1 ) ? current = instance.current : current = instance.$el.find('.st-open:last').index();
 			
 			$('html, body').stop().animate({
 				scrollTop	: ( instance.options.oneOpenedItem ) ? instance.$items.eq( current ).data( 'offsetTop' ) : instance.$items.eq( current ).offset().top

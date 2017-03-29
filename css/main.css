@@ -1,0 +1,94 @@
+#top-contents {
+    width: 100%;
+    height: 100%;
+}
+/*--------------Contents Of Business--------------*/
+#cob {
+    width: 100%;
+    height: 100%;
+}
+#cob .subtitle {
+    width: 100%;
+    height: 56px;
+    background-image: url("../images/subtitle/cob.png");
+}
+.businesstitle {
+    text-align: center;
+}
+.businesstitle > img {
+    
+}
+#branding {
+    width: 90%;
+    margin: 3% auto 0 auto;
+}
+#inbound {
+    width: 90%;
+    margin: 3% auto 0 auto;
+}
+#innovation {
+    width: 90%;
+    margin: 3% auto 0 auto;
+}
+#cob h2 {
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-size: calc(112.5% + 4 * (100vw - 1000px) / 400);
+    text-align: center;
+}
+#cob p {
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-size: calc(45% + 0.5vw);
+    text-align: center;
+    margin-top: 2%;
+}
+#branding h2 {
+    color: #efb133 !important;
+}
+#inbound h2 {
+    color: #0065b2 !important;
+}
+#innovation h2 {
+    color: #2ba464 !important;
+}
+.solution {
+    margin: 2% auto 0 auto;
+    text-align: center;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.solution a {
+    display: block;
+    position: absolute;
+    line-height: 60px;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    color: #000;
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-size: calc(60% + 0.5vw);
+}
+#branding .solution {
+    background-image: url("/images/cob/solution/branding.png");
+}
+#inbound .solution {
+    background-image: url("/images/cob/solution/inbound.png");
+}
+#innovation .solution {
+    background-image: url("/images/cob/solution/innovation.png");
+}
+.st-content {
+    position: relative;
+    width: 100%;
+}
+#cob .images {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+#cob .images img {
+    width: 24%;
+}
