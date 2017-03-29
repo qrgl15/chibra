@@ -2,15 +2,21 @@
     width: 100%;
     height: 100%;
 }
+/*-------------------Sub Title--------------------*/
+.subtitle {
+    width: 100%;
+    height: 56px;
+}
+#cob .subtitle {
+    background-image: url("../images/subtitle/cob.png");
+}
+#culture .subtitle {
+    background-image: url("../images/subtitle/culture.png");
+}
+
 /*--------------Contents Of Business--------------*/
 #cob {
     width: 100%;
-    height: 100%;
-}
-#cob .subtitle {
-    width: 100%;
-    height: 56px;
-    background-image: url("../images/subtitle/cob.png");
 }
 .businesstitle {
     text-align: center;
@@ -91,4 +97,17 @@
 }
 #cob .images img {
     width: 24%;
+}
+/*--------------------Culture---------------------*/
+#culture {
+    width: 100%;
+    margin-top: 3%;
+}
+#culture .images {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+#culture .images img {
+    width: 12.2%;
 }

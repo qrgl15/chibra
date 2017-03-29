@@ -176,3 +176,14 @@
     padding-left: 0px !important;
   }
 }
+/*--------------------Culture用-----------------------------*/
+@media all and (max-width: 528px) {
+  #culture .images img {
+    width: 44% !important;
+  }
+}
+@media all and (min-width: 529px) and (max-width: 767px) {
+  #culture .images img {
+    width: 24% !important;
+  }
+}
