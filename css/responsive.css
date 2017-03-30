@@ -156,7 +156,9 @@
     padding: 0 46px;
   }
   .l_menu-nav > li {
-    font-family: 'Arvo', serif;
+    /*font-family: 'Arvo', serif;*/
+    font-style: italic;
+    color: #335b84;
     font-weight: 700;
     display: block;
     text-align: left;

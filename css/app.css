@@ -98,11 +98,11 @@ input[type='text'], select, textarea {
 }
 .l_menu-nav > li {
   display: inline-block;
-  color: #c1c1c1;
-  /*font-family: 'Arvo', serif;*/
-  font-family: 'Noto Sans Japanese', sans-serif !important;
+  /*font-family: 'Noto Sans Japanese', sans-serif !important;*/
+  font-style: italic;
   font-size: 13px;
   font-weight: 700;
+  color: #335b84;
 }
 .l_menu-nav > li:before {
   display: inline-block;
@@ -122,7 +122,6 @@ input[type='text'], select, textarea {
 .l_menu-nav > li > a {
   display: inline-block;
   text-decoration: none;
-  color: #222;
 }
 .l_menu-nav > li > a:after {
   display: block;

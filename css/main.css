@@ -28,6 +28,7 @@
 
 #message {
     width: 100%;
+    margin-top: 3%;
 }
 #message .images {
     height: 28px;
@@ -50,7 +51,7 @@
 /*--------------Contents Of Business--------------*/
 #cob {
     width: 100%;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 .businesstitle {
     text-align: center;
