@@ -20,15 +20,22 @@
     width: 98% !important;
   }
 }
+@media all and (max-width: 479px) {
+  .p_top-mv {
+    background-image: url("../images/main_sp.png");
+  }
+}
 @media all and (min-width: 375px) and (max-width: 767px) {
   #cob .images img {
     width: 44% !important;
   }
 }
-@media all and (max-width: 767px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   .p_top-mv {
-    background-image: url("../images/main_sp.png");
+    background-image: url("../images/main_itouch.png");
   }
+}
+@media all and (max-width: 767px) {
   #cob .subtitle {
     background-image: url("../images/subtitle/cob_sp.png") !important;
   }
