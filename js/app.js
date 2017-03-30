@@ -174,5 +174,12 @@ $(function(){
     });
 });
 $(window).on('load resize', function(){
-    $('.blue').css('height', ($('.job_category').height()));
+  var windowWidth = window.innerWidth;
+  $('.blue').css('height', ($('.job_category').height()));
+  $('.entry', '#entry').css('top', ($('.job_category').height()) + 60 +'px');
+  if (windowWidth > 768) {
+    $('.footer').css('top', $('.entry', '#entry').height() + $('.blue').height());
+  }else {
+    $('.footer').css('top', $('.entry', '#entry').height() + $('.blue').height() + 30 + 'px');
+  }
 });

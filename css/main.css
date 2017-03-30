@@ -253,4 +253,27 @@ table.job_category td {
     text-align: center;
     margin-left: 3%;
     font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-weight: 500;
+}
+#entry .entry {
+    height: 80px;
+    background-image: url("../images/entry/entry.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
+}
+#entry .entry a {
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+}
+.footer {
+    background-image: url("../images/footer/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+    position: relative;
 }

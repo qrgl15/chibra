@@ -140,10 +140,6 @@
 /*-------------------------------------------------------------------------*/
 
 @media all and (max-width: 767px) {
-  table.job_category td {
-    font-size: calc(45% + 0.5vw) !important;
-    font-weight: 500;
-  }
   .l_header {
     font-size: 0;
     height: 50px;
@@ -235,6 +231,13 @@
   }
   .p_top-header {
     top: 0;
+  }
+  #entry .entry {
+    height: 60px !important;
+    width: 40% !important;
+  }
+  #entry .entry a {
+    height: 60px !important;
   }
 }
 @media all and (max-width: 1201px) {
