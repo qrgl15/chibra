@@ -20,22 +20,35 @@
     width: 98% !important;
   }
 }
-@media all and (max-width: 479px) {
-  .p_top-mv {
-    background-image: url("../images/main_sp.png");
-  }
-}
 @media all and (min-width: 375px) and (max-width: 767px) {
   #cob .images img {
     width: 44% !important;
   }
 }
-@media all and (min-width: 480px) and (max-width: 767px) {
+@media all and (max-width: 479px) {
   .p_top-mv {
-    background-image: url("../images/main_itouch.png");
+    background-image: url("../images/main_sp.png") !important;
+  }
+  #cob .subtitle {
+    background-image: url("../images/subtitle/cob_480.png") !important;
+  }
+  #culture .subtitle {
+    background-image: url("../images/subtitle/culture_480.png") !important;
+  }
+  #message .subtitle {
+    background-image: url("../images/subtitle/message_480.png") !important;
+  }
+  #interview .subtitle {
+    background-image: url("../images/subtitle/interview_480.png") !important;
+  }
+  #entry .subtitle {
+    background-image: url("../images/subtitle/entry_480.png") !important;
   }
 }
-@media all and (max-width: 767px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .p_top-mv {
+    background-image: url("../images/main_itouch.png") !important;
+  }
   #cob .subtitle {
     background-image: url("../images/subtitle/cob_sp.png") !important;
   }
@@ -45,6 +58,17 @@
   #message .subtitle {
     background-image: url("../images/subtitle/message_sp.png") !important;
   }
+  #interview .subtitle {
+    background-image: url("../images/subtitle/interview_sp.png") !important;
+  }
+  #entry .subtitle {
+      background-image: url("../images/subtitle/entry.png") !important;
+  }
+}
+
+/*-------------------------------------------------------------------------*/
+
+@media all and (max-width: 767px) {
   .l_header {
     font-size: 0;
     height: 50px;
