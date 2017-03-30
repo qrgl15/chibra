@@ -18,6 +18,12 @@
 #message .subtitle {
     background-image: url("../images/subtitle/message.png");
 }
+#interview .subtitle {
+    background-image: url("../images/subtitle/interview.png");
+}
+#entry .subtitle {
+    background-image: url("../images/subtitle/entry.png");
+}
 /*--------------------Message---------------------*/
 
 #message {
