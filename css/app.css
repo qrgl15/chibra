@@ -80,6 +80,12 @@ input[type='text'], select, textarea {
   left: 10px;
   top: 6px;
 }
+#logo > p {
+  display: none;
+}
+#logo > span {
+  display: none;
+}
 .l_menu {
   
 }
