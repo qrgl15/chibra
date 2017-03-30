@@ -154,3 +154,27 @@
 #culture .images img {
     width: 12.2%;
 }
+#link {
+    width: 100%;
+}
+#link .gallery {
+    background-image: url("../images/culture/footer/gallery.png");
+    background-position: center;
+    width: 33%;
+    height: 136px;
+    display: inline-block;
+}
+#link .staff {
+    background-image: url("../images/culture/footer/staff.png");
+    background-position: center;
+    width: 33%;
+    height: 136px;
+    display: inline-block;
+}
+#link .chibra {
+    background-image: url("../images/culture/footer/more.png");
+    background-position: center;
+    width: 33%;
+    height: 136px;
+    display: inline-block;
+}

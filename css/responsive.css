@@ -29,6 +29,9 @@
   .p_top-mv {
     background-image: url("../images/main_sp.png") !important;
   }
+  .businesstitle {
+    width: 100% !important;
+  }
   #cob .subtitle {
     background-image: url("../images/subtitle/cob_480.png") !important;
   }
@@ -280,9 +283,45 @@
   #culture .images img {
     width: 44% !important;
   }
+  #link .gallery {
+    background-image: url("../images/culture/footer/gallery_sp.png") !important;
+    width: 100% !important;
+    height: 152px !important;
+    display: inline-block !important;
+  }
+  #link .staff {
+      background-image: url("../images/culture/footer/staff_sp.png") !important;
+      width: 100% !important;
+      height: 152px !important;
+      display: inline-block !important;
+  }
+  #link .chibra {
+      background-image: url("../images/culture/footer/more_sp.png") !important;
+      width: 100% !important;
+      height: 152px !important;
+      display: inline-block !important;
+  }
 }
 @media all and (min-width: 529px) and (max-width: 767px) {
   #culture .images img {
     width: 24% !important;
+  }
+  #link .gallery {
+    background-image: url("../images/culture/footer/gallery_itouch.png") !important;
+    width: 100% !important;
+    height: 152px !important;
+    display: inline-block !important;
+  }
+  #link .staff {
+      background-image: url("../images/culture/footer/staff_itouch.png") !important;
+      width: 100% !important;
+      height: 152px !important;
+      display: inline-block !important;
+  }
+  #link .chibra {
+      background-image: url("../images/culture/footer/more_itouch.png") !important;
+      width: 100% !important;
+      height: 152px !important;
+      display: inline-block !important;
   }
 }
