@@ -173,4 +173,6 @@ $(function(){
       return false;
     });
 });
-
+$(window).on('load resize', function(){
+    $('.blue').css('height', ($('.job_category').height()));
+});
