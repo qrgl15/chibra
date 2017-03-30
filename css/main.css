@@ -156,6 +156,12 @@
 }
 #link {
     width: 100%;
+    text-align: center;
+}
+#link  a {
+    width: 100%;
+    height: 136px;
+    display: inline-block;
 }
 #link .gallery {
     background-image: url("../images/culture/footer/gallery.png");
@@ -177,4 +183,69 @@
     width: 33%;
     height: 136px;
     display: inline-block;
+}
+/*--------------------Interview---------------------*/
+
+#interview {
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+/*----------------------Entry-----------------------*/
+
+#entry {
+    width: 100%;
+    margin-top: 3%;
+}
+.r-box {
+    position: relative;
+    width: 100%;
+    top: 160px;
+}
+.a-box {
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 50%; /*レスポンシブ*/
+	height: 240px;
+}
+.blue {
+    width: 25%;
+    height: 240px;
+    background-color: #003366;
+    float: left;
+    display: table;
+}
+.recruit {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+	font-family: 'Noto Sans Japanese', sans-serif !important;
+	font-weight: 700;
+}
+.job {
+    width: 75%;
+    height: 240px;
+    margin-left: 25%;
+}
+table.job_category {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+	height: 240px;
+}
+table.job_category td {
+	width: 100%;
+	padding: 10px;
+	vertical-align: top;
+	border: 1px solid #003366;
+	font-family: 'Noto Sans Japanese', sans-serif !important;
+}
+table.job_category td img {
+	
 }
