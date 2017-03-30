@@ -9,6 +9,11 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+@media all and (min-width: 1301px) {
+    .subtitle {
+        background-size: cover;   
+    }
+}
 #cob .subtitle {
     background-image: url("../images/subtitle/cob.png");
 }
@@ -70,6 +75,9 @@
 #innovation {
     width: 90%;
     margin: 3% auto 0 auto;
+}
+.border {
+    border-bottom: solid 1px #335b84;
 }
 #cob h2 {
     font-family: 'Noto Sans Japanese', sans-serif !important;
