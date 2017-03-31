@@ -57,6 +57,7 @@
 #cob {
     width: 100%;
     margin-top: 3%;
+    clear: left;
 }
 .businesstitle {
     text-align: center;
@@ -184,12 +185,6 @@
     height: 136px;
     display: inline-block;
 }
-/*--------------------Interview---------------------*/
-
-#interview {
-    width: 100%;
-    margin-top: 3%;
-}
 
 
 /*----------------------Entry-----------------------*/
@@ -275,4 +270,66 @@ table.job_category td {
     height: 120px;
     width: 100%;
     position: relative;
+}
+/*--------------------Interview---------------------*/
+
+#interview {
+    width: 100%;
+    margin-top: 3%;
+}
+#interview .article {
+    width: 50%;
+    float: left;
+}
+.center {
+    text-align: center;
+}
+#interview .image {
+    width: 100%;
+    height: 304px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#nakano .image {
+    background-image: url("../images/interview/nakano.png");
+}
+#hidaka .image {
+    background-image: url("../images/interview/hidaka.png");
+}
+#interview .introduction {
+    background-color: #003366;
+    height: 112px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+span#name {
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-size: calc(100% + 4 * (100vw - 1000px) / 400);
+    color: #fff;
+}
+span#company {
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-size: calc(30% + 0.5vw);
+    color: #fff;
+}
+#interview .introduction p {
+    width: 90%;
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-size: calc(30% + 0.5vw);
+    color: #fff;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+#interview .sentence {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+#interview .sentence p {
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+    font-size: calc(45% + 0.5vw);
 }
