@@ -395,3 +395,8 @@
       background-color: #003366;
 }
 }
+@media all and (min-width: 1440px) {
+  .l_menu-nav {
+    text-align: right;
+  }
+}
