@@ -81,6 +81,20 @@
   .a-box {
     width: 80% !important;
   }
+  #interview .article {
+    width: 90% !important;
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  #interview .image {
+    height: 208px !important;
+  }
+  #nakano .image {
+    background-image: url("../images/interview/nakano_sp.png") !important;
+  }
+  #hidaka .image {
+      background-image: url("../images/interview/hidaka_sp.png") !important;
+  }
 }
 @media all and (min-width: 480px) and (max-width: 767px) {
   .p_top-mv {
@@ -134,6 +148,11 @@
     width: 90px;
     background-image: url(../images/entry_780.svg);
     background-repeat: no-repeat;
+  }
+  #interview .article {
+    width: 90% !important;
+    float: none !important;
+    margin: 0 auto !important;
   }
 }
 
