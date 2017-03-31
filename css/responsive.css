@@ -104,6 +104,9 @@
   .recruit {
     font-size: 12px !important; 
   }
+  .footer p {
+     font-size: 10px !important; 
+  }
 }
 @media all and (min-width: 480px) and (max-width: 767px) {
   .p_top-mv {
@@ -168,6 +171,9 @@
   }
   .recruit {
     font-size: 14px !important; 
+  }
+  .footer p {
+     font-size: 12px !important; 
   }
 }
 
