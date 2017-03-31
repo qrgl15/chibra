@@ -12,7 +12,8 @@
 }
 @media all and (min-width: 1301px) {
     .subtitle {
-        background-size: cover;   
+        background-size: cover;  
+        height: 80px !important;
     }
 }
 #cob .subtitle {
