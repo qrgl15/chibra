@@ -122,13 +122,13 @@
     font-size: calc(60% + 0.5vw);
 }
 #branding .solution {
-    background-image: url("/images/cob/solution/branding.png");
+    background-image: url("../images/cob/solution/branding.png");
 }
 #inbound .solution {
-    background-image: url("/images/cob/solution/inbound.png");
+    background-image: url("../images/cob/solution/inbound.png");
 }
 #innovation .solution {
-    background-image: url("/images/cob/solution/innovation.png");
+    background-image: url("../images/cob/solution/innovation.png");
 }
 .st-content {
     position: relative;
