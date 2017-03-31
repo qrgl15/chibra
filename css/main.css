@@ -176,6 +176,8 @@
 }
 #link .link {
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 33%;
     height: 136px;
     display: inline-block;
