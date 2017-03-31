@@ -399,4 +399,8 @@
   .l_menu-nav {
     text-align: right;
   }
+  .subtitle {
+        background-size: cover;  
+        height: 80px !important;
+    }
 }
