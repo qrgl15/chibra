@@ -98,6 +98,12 @@
   #interview .introduction {
     /*height: 128px !important;*/
   }
+  span#name {
+   font-size: 12px !important; 
+  }
+  .recruit {
+    font-size: 12px !important; 
+  }
 }
 @media all and (min-width: 480px) and (max-width: 767px) {
   .p_top-mv {
@@ -156,6 +162,12 @@
     width: 90% !important;
     float: none !important;
     margin: 0 auto !important;
+  }
+  span#name {
+   font-size: 14px !important; 
+  }
+  .recruit {
+    font-size: 14px !important; 
   }
 }
 
