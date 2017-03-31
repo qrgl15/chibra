@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 #top-contents {
     width: 100%;
     height: 100%;
@@ -166,26 +167,19 @@
 }
 #link .gallery {
     background-image: url("../images/culture/footer/gallery.png");
-    background-position: center;
-    width: 33%;
-    height: 136px;
-    display: inline-block;
 }
 #link .staff {
     background-image: url("../images/culture/footer/staff.png");
-    background-position: center;
-    width: 33%;
-    height: 136px;
-    display: inline-block;
 }
 #link .chibra {
     background-image: url("../images/culture/footer/more.png");
+}
+#link .link {
     background-position: center;
     width: 33%;
     height: 136px;
     display: inline-block;
 }
-
 
 /*----------------------Entry-----------------------*/
 
