@@ -372,3 +372,20 @@
       display: inline-block !important;
   }
 }
+@media all and (min-width: 768px) {
+  .wanted a {
+    display:block;
+	  width:100%;
+  }
+  .wanted a:hover{
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+  #entry .border_btn {
+    border: solid 1px #003366;
+    border-radius: 2px;
+  }
+  #entry .border_btn:hover {
+      background-color: #003366;
+}
+}

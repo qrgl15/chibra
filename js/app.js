@@ -130,10 +130,15 @@ $(function(){
       } else {
         $('.l_menu-nav > li:first-child').css('display', 'none');
       }
-      if($('.l_menu-nav').css('background-color') == 'rgb(169, 169, 169)') {
+      // if($('.l_menu-nav').css('background-color') == 'rgb(169, 169, 169)') {
+      //   $('.l_menu-nav').css('background-color',  '#fff');
+      // } else {
+      //   $('.l_menu-nav').css('background-color',  '#a9a9a9');
+      // }
+      if($('.l_menu-nav').css('background-color') == '#4a4747') {
         $('.l_menu-nav').css('background-color',  '#fff');
       } else {
-        $('.l_menu-nav').css('background-color',  '#a9a9a9');
+        $('.l_menu-nav').css('background-color',  '#4a4747');
       }
       return false;
     });
@@ -184,6 +189,5 @@ $(window).on('load resize', function(){
   }
 });
 $(window).on('load resize', function(){
-  console.log("aaa");
   $('.introduction').css('height', ($('.introduction > p').height()) + ($('.center', '#interview').height()) + 'px');
 });
