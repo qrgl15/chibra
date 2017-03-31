@@ -95,6 +95,9 @@
   #hidaka .image {
       background-image: url("../images/interview/hidaka_sp.png") !important;
   }
+  #interview .introduction {
+    /*height: 128px !important;*/
+  }
 }
 @media all and (min-width: 480px) and (max-width: 767px) {
   .p_top-mv {

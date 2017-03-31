@@ -222,6 +222,7 @@
 	text-align: center;
 	font-family: 'Noto Sans Japanese', sans-serif !important;
 	font-weight: 700;
+	font-size: calc(100% + 4 * (100vw - 1000px) / 400);
 }
 .job {
     width: 75%;
@@ -239,6 +240,7 @@ table.job_category td {
 	padding: 10px;
 	border: 1px solid #003366;
 	font-family: 'Noto Sans Japanese', sans-serif !important;
+	font-size: calc(45% + 0.5vw);
 }
 .wanted {
     width: 30% !important;

@@ -183,3 +183,7 @@ $(window).on('load resize', function(){
     $('.footer').css('top', $('.entry', '#entry').height() + $('.blue').height() + 30 + 'px');
   }
 });
+$(window).on('load resize', function(){
+  console.log("aaa");
+  $('.introduction').css('height', ($('.introduction > p').height()) + ($('.center', '#interview').height()) + 'px');
+});
