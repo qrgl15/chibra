@@ -39,7 +39,7 @@
 #message .images {
     height: 28px;
     text-align: center;
-    margin: 1% auto 0 auto;
+    margin: 3% auto 0 auto;
 }
 #message .images img {
     height: 28px;
@@ -287,10 +287,12 @@ table.job_category td {
 #interview {
     width: 100%;
     margin-top: 3%;
+    margin-bottom: 2%;
 }
 #interview .article {
-    width: 50%;
+    width: 49%;
     float: left;
+    margin-top: 2%;
 }
 .center {
     text-align: center;
@@ -301,6 +303,12 @@ table.job_category td {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+#nakano {
+    margin-right: 1%;
+}
+#hidaka {
+    margin-left: 1%;
 }
 #nakano .image {
     background-image: url("../images/interview/nakano.png");
