@@ -146,6 +146,7 @@ input[type='text'], select, textarea {
   position: absolute;
   top: 0;
   right: 0;
+  height: 58px;
   z-index: 200;
 }
 .l_header-btn img {
