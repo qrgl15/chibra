@@ -446,4 +446,7 @@
   .l_menu-nav > li:first-child {
     font-size: 15px !important;
   }
+  .l_header-btn {
+    line-height: 0;
+  }
 }
