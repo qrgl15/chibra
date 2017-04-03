@@ -196,7 +196,9 @@ input[type='text'], select, textarea {
   /*background-image: url("../images/main.png");*/
   background-image: url("../images/main_1300.png");
   background-position: center;
-  background-repeat: repeat-x;
+  /*background-repeat: repeat-x;*/
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 10;
 }
 /*.p_top-mv > img {*/
