@@ -427,26 +427,3 @@
     font-size: 15px !important;
   }
 }
-@supports (-ms-accelerator:true) {
-  body {
-    font-size: 62.5%;
-  }
-  p, a, td, span, span#name, span#company {
-    font-size: 1.4em !important;
-  }
-  h2 {
-    font-size: 1.6em !important;
-  }
-  td.wanted a {
-    font-size: 1.2em !important;
-  }
-  .l_menu-nav {
-    font-size: 100% !important;
-  }
-  .l_menu-nav > li {
-    font-size: 100% !important;
-  }
-  .l_menu-nav > li:first-child {
-    font-size: 15px !important;
-  }
-}
