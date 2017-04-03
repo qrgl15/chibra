@@ -414,7 +414,7 @@
   *::-ms-backdrop, h2 {
     font-size: 1.6em !important;
   }
-  *::-ms-backdrop, border_btn > a {
+  *::-ms-backdrop, td.wanted {
     font-size: 1.2em !important;
   }
 }
