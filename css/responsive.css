@@ -404,3 +404,17 @@
         height: 80px !important;
     }
 }
+@media all and (-ms-high-contrast:none){
+  *::-ms-backdrop, body {
+    font-size: 62.5%;
+  }
+  *::-ms-backdrop, p, a, td, span {
+    font-size: 1.4em !important;
+  }
+  *::-ms-backdrop, h2 {
+    font-size: 1.6em !important;
+  }
+  *::-ms-backdrop, td > a {
+    font-size: 1.2em !important;
+  }
+}
