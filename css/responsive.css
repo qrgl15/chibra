@@ -405,16 +405,16 @@
     }
 }
 @media all and (-ms-high-contrast:none){
-  *::-ms-backdrop, body {
+  body {
     font-size: 62.5%;
   }
-  *::-ms-backdrop, p, a, td, span, span#name, span#company {
+  p, a, td, span, span#name, span#company {
     font-size: 1.4em !important;
   }
-  *::-ms-backdrop, h2 {
+  h2 {
     font-size: 1.6em !important;
   }
-  *::-ms-backdrop, td.wanted a {
+  td.wanted a {
     font-size: 1.2em !important;
   }
 }
