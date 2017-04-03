@@ -408,13 +408,13 @@
   *::-ms-backdrop, body {
     font-size: 62.5%;
   }
-  *::-ms-backdrop, p, a, td, span {
+  *::-ms-backdrop, p, a, td, span, span#name, span#company {
     font-size: 1.4em !important;
   }
   *::-ms-backdrop, h2 {
     font-size: 1.6em !important;
   }
-  *::-ms-backdrop, td > a {
+  *::-ms-backdrop, border_btn > a {
     font-size: 1.2em !important;
   }
 }
