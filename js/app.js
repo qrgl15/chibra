@@ -192,3 +192,9 @@ $(window).on('load resize', function(){
   $('.introduction', '#nakano').css('height', ($('.introduction > p', '#nakano').height()) + ($('.center', '#nakano').height()) + 6 +'px' );
   $('.introduction', '#hidaka').css('height', ($('.introduction > p', '#hidaka').height()) + ($('.center', '#hidaka').height()) + 6 +'px' );
 });
+$(function () {
+    var ua = navigator.userAgent;
+    if (ua.indexOf('iPhone') > 0) {
+      $('#logo span').css('top', 12 + 'px')
+    }
+});
