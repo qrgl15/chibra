@@ -189,5 +189,5 @@ $(window).on('load resize', function(){
   }
 });
 $(window).on('load resize', function(){
-  $('.introduction').css('height', ($('.introduction > p').height()) + ($('.center', '#interview').height()) + 'px');
+  $('.introduction').css('height', ($('.introduction > p').height()) + ($('.center', '#interview').height()) + 'px' );
 });
