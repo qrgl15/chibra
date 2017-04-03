@@ -189,5 +189,6 @@ $(window).on('load resize', function(){
   }
 });
 $(window).on('load resize', function(){
-  $('.introduction').css('height', ($('.introduction > p').height()) + ($('.center', '#interview').height()) + 'px' );
+  $('.introduction', '#nakano').css('height', ($('.introduction > p', '#nakano').height()) + ($('.center', '#nakano').height()) + 6 +'px' );
+  $('.introduction', '#hidaka').css('height', ($('.introduction > p', '#hidaka').height()) + ($('.center', '#hidaka').height()) + 6 +'px' );
 });
