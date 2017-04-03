@@ -31,11 +31,14 @@ body {
   *::-ms-backdrop, body {
     font-size: 62.5%;
   }
-  *::-ms-backdrop, p , td, a {
+  *::-ms-backdrop, p, a, td, span {
     font-size: 1.4em !important;
   }
   *::-ms-backdrop, h2 {
     font-size: 1.6em !important;
+  }
+  *::-ms-backdrop, td > a {
+    font-size: 1.2em !important;
   }
 }
 h1, h2, h3, h4, h5, h6, form, p, ul, ol, li, dd, dt, dl, address {
