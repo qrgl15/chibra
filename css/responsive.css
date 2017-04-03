@@ -427,7 +427,7 @@
     font-size: 15px !important;
   }
 }
-@supports (-ms-accelerator:true) { 
+@supports (-ms-ime-align:auto) {
   p, a, td, span, span#name, span#company {
     font-size: 14px !important;
   }
