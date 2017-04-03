@@ -426,6 +426,9 @@
   .l_menu-nav > li:first-child {
     font-size: 15px !important;
   }
+  .l_header-btn {
+    line-height: 0;
+  }
 }
 @supports (-ms-ime-align:auto) {
   p, a, td, span, span#name, span#company {
@@ -447,6 +450,7 @@
     font-size: 15px !important;
   }
   .l_header-btn {
+    height: 58px;
     line-height: 0;
   }
 }
