@@ -427,3 +427,23 @@
     font-size: 15px !important;
   }
 }
+@supports (-ms-accelerator:true) { 
+  p, a, td, span, span#name, span#company {
+    font-size: 14px !important;
+  }
+  h2 {
+    font-size: 16px !important;
+  }
+  td.wanted a {
+    font-size: 12px !important;
+  }
+  .l_menu-nav {
+    font-size: 100% !important;
+  }
+  .l_menu-nav > li {
+    font-size: 100% !important;
+  }
+  .l_menu-nav > li:first-child {
+    font-size: 15px !important;
+  }
+}
