@@ -414,7 +414,7 @@
   *::-ms-backdrop, h2 {
     font-size: 1.6em !important;
   }
-  *::-ms-backdrop, td.wanted {
+  *::-ms-backdrop, td.wanted a {
     font-size: 1.2em !important;
   }
 }
