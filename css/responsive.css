@@ -423,4 +423,7 @@
   .l_menu-nav > li {
     font-size: 100% !important;
   }
+  .l_menu-nav > li:first-child {
+    font-size: 15px !important;
+  }
 }
