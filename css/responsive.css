@@ -417,4 +417,10 @@
   td.wanted a {
     font-size: 1.2em !important;
   }
+  .l_menu-nav {
+    font-size: 100% !important;
+  }
+  .l_menu-nav > li {
+    font-size: 100% !important;
+  }
 }
